@@ -9,6 +9,15 @@
 #ifndef Controller_hpp
 #define Controller_hpp
 
-#include <stdio.h>
+class Controller
+{
+private:
+    void tryNumbers(int sent);
+    int changeNumber();
+    void changeWithPointer(int * numberPointer);
+    void inputNumber(int number);
+public:
+    void start();
+};
 
 #endif /* Controller_hpp */
